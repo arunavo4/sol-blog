@@ -1,0 +1,12 @@
+[programs.localnet]
+blog_sol = "ChTWuU3CxkqfGATCGyWB9gMujNGbTcceXnJv2YUYciK3"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "yarn mocha -t 1000000 tests/"
